@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:coral;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color:brown;
+    margin-bottom: 40px;
+  }
+  
+  .galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .galeria img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
